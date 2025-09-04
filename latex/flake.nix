@@ -1,5 +1,5 @@
 {
-  description = "Empty devshell.";
+  description = "A very basic flake";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
@@ -13,8 +13,12 @@
   in
   {
     devShells.default = pkgs.mkShell {
-      packages = with pkgs; [
-        hello
+      buildInputs = with pkgs; [
+        (texlive.combine {
+          inherit (texlive) scheme-small
+          latexmk
+          ;
+        })
       ];
     };
   });
