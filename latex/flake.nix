@@ -17,6 +17,7 @@
         (texlive.combine {
           inherit (texlive) scheme-small
           latexmk
+          ctex
           ;
         })
       ];
