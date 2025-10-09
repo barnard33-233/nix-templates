@@ -10,6 +10,10 @@
         path = ./latex;
         description = "Basic latex template.";
       };
+      beamer = {
+        path = ./beamer;
+        description = "Beamer template";
+      };
     };
   };
 }

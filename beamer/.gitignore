@@ -1,0 +1,46 @@
+# ========== LaTeX intermediate files ==========
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.run.xml
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+
+# ========== Editor backup files ==========
+*~
+*.swp
+*.bak
+*.tmp
+*.backup
+
+# ========== Output files ==========
+*.pdf
+*.dvi
+*.ps
+
+# 如果你希望版本库保留最终 PDF，则注释掉下面这行
+# !*.pdf
+
+# ========== Auxiliary for TeX editors ==========
+.texpadtmp/
+.vscode/
+.idea/
+*.xcodeproj
+*.DS_Store
+
+# ========== Latexmk / arara ==========
+latex.out/
