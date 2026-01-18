@@ -14,6 +14,18 @@
         path = ./beamer;
         description = "Beamer template";
       };
+      python = {
+        path = ./python;
+        description = "Python template";
+      };
+      fhs = {
+        path = ./fhs;
+        description = "Empty FHS devshell.";
+      };
+      kernel-fhs = {
+        path = ./kernel-fhs;
+        description = "For Kernel development.";
+      };
     };
   };
 }
